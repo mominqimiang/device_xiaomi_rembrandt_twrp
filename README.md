@@ -45,7 +45,7 @@ repo sync -j$(nproc --all)
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/rembrandt" name="mominqimiang/device_xiaomi_rembrandt_twrp" remote="github" revision="TWRP-12.1_kernel_5.10.136" />
+<project path="device/xiaomi/rembrandt" name="mominqimiang/device_xiaomi_rembrandt_twrp" remote="github" revision="TWRP-12.1_kernel_5.10.117" />
 ```
 
 Finally execute these:
