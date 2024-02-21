@@ -2,7 +2,7 @@
 
 =========================================
 
-The Redmi K60E (codenamed _"rembrandt"_) is a high-end, mid-range smartphone from Xiaomi.
+The Redmi K60E (codenamed _"rembrandt"_) is a smartphone from Xiaomi.
 
 It was released in December 2022.
 
@@ -26,14 +26,12 @@ Display | 1220 x 2712 pixels, 6.67 inches, 60/120/144 hz
 Works:
 
 - [X] ADB
-- [X] Partially Decryption (Android 14)
 - [X] Display
 - [X] Fasbootd
 - [X] Flashing
 - [X] MTP
 - [X] Sideload
 - [X] USB OTG
-- [X] Vibrator
 
 ## Compile
 
@@ -47,7 +45,7 @@ repo sync -j$(nproc --all)
 Then add these projects to .repo/manifest.xml:
 
 ```xml
-<project path="device/xiaomi/rembrandt" name="mominqimiang/device_xiaomi_rembrandt_TWRP" remote="github" revision="TWRP-12.1_kernel_5.10.136" />
+<project path="device/xiaomi/rembrandt" name="mominqimiang/device_xiaomi_rembrandt_twrp" remote="github" revision="TWRP-12.1_kernel_5.10.136" />
 ```
 
 Finally execute these:
