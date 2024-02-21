@@ -53,7 +53,7 @@ Finally execute these:
 ```
 source build/envsetup.sh
 repopick <needed patch>
-lunch twrp_aristotle-eng
+lunch twrp_rembrandt-eng
 mka vendorbootimage -j$(nproc --all)
 ```
 ## To use it:
