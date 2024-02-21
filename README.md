@@ -5,6 +5,7 @@
 The Redmi K60E (codenamed _"rembrandt"_) is a smartphone from Xiaomi.
 
 It was released in December 2022.
+![Redmi K60E](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1672037146.81276139.png)
 
 ## Device specifications
 
@@ -19,9 +20,9 @@ Storage | 256 GB (UFS 3.1)
 Battery | Li-Po 5500 mAh, non-removable
 Display | 1220 x 2712 pixels, 6.67 inches, 60/120/144 hz
 
-![Redmi K60E](https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1672037146.81276139.png)
-
 ## Features
+
+No Decryption
 
 Works:
 
