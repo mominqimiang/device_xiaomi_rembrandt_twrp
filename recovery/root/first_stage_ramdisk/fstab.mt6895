@@ -6,8 +6,8 @@
 # 1 "<built-in>" 2
 # 1 "vendor/mediatek/proprietary/hardware/fstab/mt6895/fstab.in.mt6895" 2
 # 173 "vendor/mediatek/proprietary/hardware/fstab/mt6895/fstab.in.mt6895"
-system /system erofs ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
-system /system ext4 ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
+system /system erofs ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
+system /system ext4 ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
 
 vendor /vendor erofs ro wait,slotselect,avb,logical,first_stage_mount
 vendor /vendor ext4 ro wait,slotselect,avb,logical,first_stage_mount
@@ -41,8 +41,8 @@ overlay /system/lib overlay ro,lowerdir=/product/pangu/system/lib/:/system/lib c
 overlay /system/lib64 overlay ro,lowerdir=/product/pangu/system/lib64/:/system/lib64 check,nofail
 
 
-system_ext /system_ext erofs ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
-system_ext /system_ext ext4 ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount,avb_keys=/avb/q-gsi.avbpubkey:/avb/r-gsi.avbpubkey:/avb/s-gsi.avbpubkey
+system_ext /system_ext erofs ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
+system_ext /system_ext ext4 ro wait,slotselect,avb=vbmeta_system,logical,first_stage_mount
 
 odm /odm erofs ro wait,slotselect,avb,logical,first_stage_mount
 odm /odm ext4 ro wait,slotselect,avb,logical,first_stage_mount
