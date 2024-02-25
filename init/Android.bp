@@ -1,0 +1,14 @@
+cc_library_static {
+    name: "libinit_rembrandt",
+    header_libs: [
+        "libbase_headers",
+    ],
+    cflags: [
+        "-Wall",
+    ],
+    static_libs: [
+        "libbase",
+    ],
+    srcs: ["init_rembrandt.cpp"],
+    recovery_available: true,
+}

@@ -1,9 +1,16 @@
-# Inherit from common AOSP config
+# Configure base.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
+
+# Configure core_64_bit.mk
+$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
+
+# Configure launch_with_vendor_ramdisk.mk
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
-# Inherit from TWRP product configuration
+# Configure emulated_storage.mk
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
+# Configure twrp config common.mk
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Device specific configs
@@ -15,4 +22,6 @@ PRODUCT_NAME := twrp_rembrandt
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 22122RK93C
 PRODUCT_MANUFACTURER := Xiaomi
+
+# Hide Reflash TWRP
 PRODUCT_PROPERTY_OVERRIDES += ro.twrp.vendor_boot=true
