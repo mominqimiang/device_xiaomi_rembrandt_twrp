@@ -26,6 +26,7 @@ Problems:
 - [X] mount system
 - [X] unmount vendor
 - [X] directly flash magisk apk
+
 Works:
 
 - [X] ADB
