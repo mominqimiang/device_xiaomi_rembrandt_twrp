@@ -40,5 +40,5 @@ Works:
 ## To use it:
 
 ```
-fastboot flash vendor_boot out/target/product/rembrandt/vendor_boot.img
+fastboot flash vendor_boot vendor_boot.img
 ```
