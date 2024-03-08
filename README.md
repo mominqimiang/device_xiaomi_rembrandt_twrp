@@ -2,7 +2,7 @@
 
 =========================================
 
-The Redmi K60E (codenamed _"rembrandt"_) is a high-end, mid-range smartphone from Xiaomi.
+Redmi K60E (codenamed _"rembrandt"_) is a smartphone from Xiaomi.
 
 It was released in December 2022.
 
@@ -25,7 +25,7 @@ Display | 1220 x 2712 pixels, 6.67 inches, 60/120 hz
 Problems:
 - [X] mount system
 - [X] unmount vendor
-- [X] directly flash magisk apk
+- [X] directly flash magisk
 
 Works:
 
