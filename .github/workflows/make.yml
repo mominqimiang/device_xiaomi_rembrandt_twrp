@@ -161,6 +161,6 @@ jobs:
           Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
           Device: ${{ github.event.inputs.DEVICE_NAME }}
           Target: vendor_boot.img
-          Version:Android12
+          Version:Android12_shrp
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
