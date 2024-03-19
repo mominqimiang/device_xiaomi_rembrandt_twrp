@@ -21,7 +21,6 @@ Display | 1220 x 2712 pixels, 6.67 inches, 60/120 hz
 
 ## Features
 Problems:
-- [X] mount system
 - [X] unmount vendor
 - [X] directly flash magisk
 
